@@ -1,0 +1,47 @@
+.iframe-container {
+  overflow: hidden;
+  padding-top: 6%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   max-width: 100%;
+}
+
+h1,
+p {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: National\ 2,sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+}
+
+a {
+  color: #31c1ef;
+  text-decoration: none;
+}
+
+.wrapper {
+  background-color: #fff;
+  border-radius: 1rem;
+  margin: 0 auto;
+  max-width: 1020px;
+  padding: 2rem;
+  max-width: 100%;
+}
+
+.buttons {
+  display: none;
+}
+
+.embed #container {
+  max-width: 100% !important;
+}
